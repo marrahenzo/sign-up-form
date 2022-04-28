@@ -1,9 +1,15 @@
+body {
+  margin: 0;
+}
+
 .main-container {
   display: flex;
+  height: 100vh;
 }
 
 .photo {
   background-image: url("./media/background.jpg");
+  background-position: -500px -100px;
   color: aliceblue;
   display: flex;
   flex-direction: column;
@@ -11,16 +17,20 @@
 }
 
 .logo {
+  background-color: rgba(000, 000, 000, 0.5);
   font-family: "Montserrat", sans-serif;
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 70px;
 }
 
 #logo {
   fill: white;
   width: 15rem;
+  height: 15rem;
+  margin-right: -30px;
 }
 
 .credits {
