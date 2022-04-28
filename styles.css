@@ -109,7 +109,7 @@ body {
 }
 
 .form-input:focus {
-  outline: 1px solid rgb(42, 127, 255);
+  outline: 1px solid rgb(7, 131, 153);
   box-shadow: 2px 2px 5px black;
 }
 
@@ -120,7 +120,7 @@ body {
 .btn-submit {
   margin-top: 30px;
   margin-left: 5vw;
-  background-color: rgb(14, 95, 187);
+  background-color: rgb(7, 131, 153);
   border: none;
   border-radius: 5px;
   font-size: 20px;
@@ -129,4 +129,19 @@ body {
   padding: 10px 40px;
   color: white;
   box-shadow: 2px 2px 10px black;
+}
+
+.btn-submit:active {
+  background-color: white;
+  color: rgb(7, 131, 153);
+}
+
+.login {
+  margin-left: 5vw;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login a {
+  text-decoration: none;
+  color: rgb(7, 131, 153);
 }
