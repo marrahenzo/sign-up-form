@@ -145,3 +145,17 @@ body {
   text-decoration: none;
   color: rgb(7, 131, 153);
 }
+
+.personal-credits {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personal-credits a {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
